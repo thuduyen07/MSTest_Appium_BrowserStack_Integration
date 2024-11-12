@@ -1,0 +1,14 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "origin"]
+	url = https://github.com/browserstack/mstest-appium-app-browserstack.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "sdk"]
+	remote = origin
+	merge = refs/heads/sdk
+	vscode-merge-base = origin/main
